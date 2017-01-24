@@ -1,0 +1,51 @@
+body {
+   text-align: center;
+   font-size: 100%; //avoid IE resizing issues with em
+   height:100%;
+   width: 100%;
+   background-color: OldLace;
+   font-family: Tahoma, Geneva, sans-serif;
+}
+
+header {
+   height: 250px;
+   width: 200px;
+   margin: auto;
+   font-size: 1em;
+}
+
+header button {
+   width: 50px;
+   height: 45px;
+   border: 1px solid black;
+   opacity: 1;
+}
+
+.selected {
+   background-color: darkgray;
+   opacity: 0.7;
+   border: 2px solid black;
+}
+
+.toggleUser {
+   font-size: .75em;
+}
+
+
+.content {
+   width: 320px;
+   margin: auto;
+
+}
+
+.content button {
+   font-size: 1.5em;
+   height: 100px;
+   width: 145px;
+   margin: 15px 5px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   background-color: Olive;
+   border: 2px solid black;
+   color: white;
+   text-align: center;
+}
