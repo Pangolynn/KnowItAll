@@ -3,7 +3,7 @@ body {
    font-size: 100%; //avoid IE resizing issues with em
    height:100%;
    width: 100%;
-   background-color: OldLace;
+   background-color: lightgray;
    font-family: Tahoma, Geneva, sans-serif;
 }
 
@@ -15,16 +15,19 @@ header {
 }
 
 header button {
+   margin-bottom: 5px;
    width: 50px;
    height: 45px;
-   border: 1px solid black;
+   border: 3px solid black;
    opacity: 1;
+
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   background-color: skyblue;
 }
 
-.selected {
-   background-color: darkgray;
+#selected {
    opacity: 0.7;
-   border: 2px solid black;
+   border: 1px solid black;
 }
 
 .toggleUser {
@@ -44,8 +47,21 @@ header button {
    width: 145px;
    margin: 15px 5px;
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-   background-color: Olive;
+   background-color: skyblue;
    border: 2px solid black;
-   color: white;
    text-align: center;
+   color: white;
+   display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  font-size
 }
