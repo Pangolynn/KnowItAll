@@ -2,7 +2,6 @@ body {
    text-align: center;
    font-size: 100%; //avoid IE resizing issues with em
    width: 100%;
-   background-color: lightgray;
    font-family: Tahoma, Geneva, sans-serif;
    height: 100%;
    padding: 25px;
@@ -12,6 +11,10 @@ body {
 html {
   position: relative;
   min-height: 100%;
+  background: lightgray url("../images/dragon.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  display: block;
 }
 
 header {
@@ -19,6 +22,8 @@ header {
    width: 200px;
    margin: auto;
    font-size: 1em;
+   color: white;
+   text-shadow: 3px 2px 4px #000000;
 }
 
 .content {
@@ -36,7 +41,7 @@ header button {
    opacity: 0.7;
    border: 1px solid black;
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-   background-color: skyblue;
+   background-color: steelblue;
 }
 
 .userButton:hover {
@@ -67,17 +72,19 @@ header button {
    width: 145px;
    margin: 15px 5px;
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-   background-color: skyblue;
+   background-color: steelblue;
    border: 2px solid black;
    text-align: center;
    color: white;
    display: inline-block;
+   opacity: .7;
 }
 
 
 a {
   text-decoration: none;
   color: white;
+  opacity: 1;
 }
 
 a:hover {

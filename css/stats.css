@@ -5,10 +5,11 @@
   padding-bottom: 20px;
   overflow: hidden;
   height: 100%;
+  opacity: .7;
 }
 
 .statName {
-  background-color: lightblue;
+  background-color: steelblue;
   height: auto;
   color: white;
   text-shadow: none;
@@ -28,5 +29,4 @@
    min-height: 100%;
    position: relative;
    margin: 0 auto;
-   padding-bottom:20px;
 }
