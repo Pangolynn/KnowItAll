@@ -1,0 +1,21 @@
+.spells {
+  opacity: .7;
+  color: white;
+  text-shadow: 2px 1px 1px black;
+  font-size: 1.2em;
+
+}
+.spell {
+  text-align: left;
+  margin-bottom: 2em;
+  border: 6px outset #c7cbd4;
+  background-color: steelblue;
+}
+
+.spellName {
+  margin: .5em 1em;
+}
+
+.spellDescription {
+  margin: 0 .5em .5em 1em;
+}

@@ -1,1 +1,45 @@
-Create a new character.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Know It All</title>
+   <link rel="stylesheet" href="../css/styles.css">
+   <link rel="stylesheet" href="../css/newCharacter.css">
+
+
+</head>
+<body>
+   <header>
+      <h1><span>Know It All</span><h1>
+      <div class="toggleUser">
+         <button class="userButton" data-type="DM">DM</button>
+         <button id="selected" class="userButton" data-type="PC">PC</button>
+      </div>
+      <div id="characterName">No Character Loaded</div>
+   </header>
+
+
+   <div class="content">
+     <div class="createCharacterBox">
+     <form class="createCharacterForm">
+       Character Name<br>
+       <input type="text" name="name" maxlength="20">
+       Race<br>
+       <input type="text" name="race" maxlength="20">
+       Height<br>
+       <input type="text" name="height" maxlength="20">
+       Weight<br>
+       <input type="text" name="weight" maxlength="20">
+       Alignment<br>
+       <input type="text" name="alignment" maxlength="20">
+       Level<br>
+       <input type="text" name="level" maxlength="20">
+       <input type="submit" id="submitCharacter" value="Submit Character">
+     </form>
+     </div>
+     <footer><a href="../html/index.html">Main Page</a></footer>
+   </div>
+<script type="text/javascript" src="../js/scripts.js"></script>
+
+</body>
+</html>

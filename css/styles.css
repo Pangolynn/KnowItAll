@@ -2,7 +2,7 @@ body {
    text-align: center;
    font-size: 100%; //avoid IE resizing issues with em
    width: 100%;
-   font-family: Tahoma, Geneva, sans-serif;
+
    height: 100%;
    padding: 25px;
    margin: 0;
@@ -15,6 +15,7 @@ html {
   background-size: cover;
   width: 100%;
   display: block;
+  font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
 }
 
 header {
@@ -27,10 +28,12 @@ header {
 }
 
 .content {
+    width: 400px;
     min-height: 100%;
     height: 100%;
     position: relative;
     margin: 0 auto;
+    width:
 }
 
 
@@ -39,7 +42,7 @@ header button {
    width: 50px;
    height: 45px;
    opacity: 0.7;
-   border: 1px solid black;
+   border: 3px inset #c7cbd4;
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
    background-color: steelblue;
 }
@@ -49,7 +52,7 @@ header button {
 }
 
 #selected {
-  border: 3px solid black;
+  border: 6px outset #c7cbd4;
   opacity: 1;
   text-shadow: none;
 }
@@ -60,31 +63,40 @@ header button {
 
 
 .content {
-   width: 320px;
    margin: auto;
    height: 100%;
    position: relative;
 }
 
 .content button {
+   display: block;
    font-size: 1.5em;
    height: 100px;
-   width: 145px;
-   margin: 15px 5px;
+   margin: 0 auto;
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
    background-color: steelblue;
-   border: 2px solid black;
+   border: 6px outset #c7cbd4;
    text-align: center;
    color: white;
-   display: inline-block;
    opacity: .7;
+   width: 15em;
+   margin-bottom: 2em;
 }
 
+
+input[type=submit] {
+font-size: 1.1em;
+color: white;
+text-shadow: 2px 2px 4px #000000;
+background-color: steelblue;
+border: 6px outset #c7cbd4;
+padding: 10px;
+margin-bottom: 15px;
+}
 
 a {
   text-decoration: none;
   color: white;
-  opacity: 1;
 }
 
 a:hover {

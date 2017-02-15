@@ -10,12 +10,14 @@
 
 .statName {
   background-color: steelblue;
-  height: auto;
+  margin-bottom: 10px;
   color: white;
   text-shadow: none;
   font-size: 1.5em;
   padding-top: 5px;
   text-shadow: 2px 1px 1px black;
+  border: 6px outset #c7cbd4;
+  font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
 }
 
 .statValue{
@@ -24,9 +26,40 @@
 }
 
 .content {
-   width: 320px;
    height: 100%;
    min-height: 100%;
    position: relative;
    margin: 0 auto;
+}
+
+input[type=integer] {
+  width: 50px;
+  text-align: center;
+  margin: 25px 0;
+  font-size: 1.1em;
+  background-color: #1E2C47;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  border: 6px outset #c1d4f7;
+}
+
+
+#submit:hover {
+    font-size: 1.2em;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;
+}
+
+:-ms-input-placeholder {
+   color: white;
 }
